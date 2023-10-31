@@ -1,0 +1,92 @@
+body {
+  margin: 3% 5% 7%;
+}
+
+h1 {
+  font-size: 40px;
+  text-shadow: 4px 4px 4px rgb(0 0 255 / 20%);
+  margin: 0;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+.forms {
+  display: grid;
+  grid-template-columns: 45% 35%;
+  gap: 8%;
+  margin: 25px 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-form__cell {
+  margin-bottom: 8px;
+  font-size: 18px;
+}
+
+input {
+  width: -webkit-fill-available;
+  height: 20px;
+  border: 1px solid rgba(159, 159, 159, 0.85);
+  border-radius: 3px;
+}
+
+button {
+  background: rgb(0 0 255 / 20%);
+  height: fit-content;
+  padding: 6px 0;
+  border: 0;
+  border-radius: 3px;
+  margin: 8px 0;
+}
+
+.button-delete {
+  background: rgba(255, 0, 0, 0.65);
+  padding: 6px 6px;
+}
+
+button:hover {
+  cursor: pointer;
+  background: greenyellow;
+}
+
+.filter-form__line {
+  display: grid;
+  grid-template-columns: fit-content(170px) auto;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 8px;
+  font-size: 18px;
+}
+
+table {
+  width: 90%;
+  margin-top: 15px;
+}
+
+th {
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+tr {
+  text-align: left;
+  font-size: 18px;
+}
+
+tr:nth-child(2n) {
+  background: #f9f9f9;
+}
+
+.filter-form__buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
